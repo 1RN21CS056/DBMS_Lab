@@ -36,7 +36,6 @@ create table BOOK_COPIES(
 	);
 	
 
-
 create table CARD(
 	card_no int Primary key
 	);

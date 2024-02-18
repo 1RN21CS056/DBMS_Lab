@@ -29,7 +29,7 @@ create table Dlocation
 (
     Dno int,
     Dloc varchar(60),
-    constraint pk3 Primary key(Dno),
+    constraint pk3 Primary key(Dno, Dloc),
     constraint fk4 Foreign key(Dno) references Department(Dno)
 );
 

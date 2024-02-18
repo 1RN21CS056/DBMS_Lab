@@ -52,5 +52,5 @@ create table Works_on
     Hours int,
     constraint pk5 Primary key(Ssn, Pno),
     constraint fk6 Foreign key(Ssn) references Employee(Ssn),
-    constraint fk7 Foreign key(Pno) references project(Pno)
+    constraint fk7 Foreign key(Pno) references Project(Pno)
 );

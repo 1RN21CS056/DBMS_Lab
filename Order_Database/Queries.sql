@@ -38,7 +38,7 @@ from Salesman S, Orders O
 where S.S_id = O.S_id and 
 purchase_amt = (Select max(purchase_amt)
 		from Orders ord
-		where O.ord_date = ord.or	d_date
+		where O.ord_date = ord.ord_date
 		);
 
 --5. Demonstrate the DELETE operation by removing salesman with id 1000. All his orders must also be deleted.--

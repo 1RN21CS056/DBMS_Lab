@@ -41,7 +41,7 @@ where not exists
 select D.Dno, COUNT(*)
 from Department D, Employee E
 where D.Dno=E.Dno
-and E.salary > 600000
+and E.Salary > 600000
 and D.Dno IN (select E1.Dno
 from Employee E1
 group by E1.Dno

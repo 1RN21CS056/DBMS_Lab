@@ -85,7 +85,7 @@ insert into Project (Pno, Pname, Plocation, Dno) values
 
 
 
-INSERT INTO WORKS_ON (Ssn, Pno, Hours) VALUES 
+INSERT INTO Works_on (Ssn, Pno, Hours) VALUES 
     ('RN02', 100, 4),
     ('RN02', 101, 6),
     ('RN02', 102, 8),

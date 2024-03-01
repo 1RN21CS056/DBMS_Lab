@@ -31,7 +31,7 @@ select * from Movies;
 insert into Movie_cast(Act_id, Mov_id, Role) values
     (101,1002,'Hero'),
     (101,1001,'Hero'),
-    (103,1003,'Heroine'),
+    (103,1003,'Hero'),
     (103,1002,'Guest'),
     (104,1004,'Hero');
 

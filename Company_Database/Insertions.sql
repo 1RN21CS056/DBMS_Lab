@@ -1,4 +1,4 @@
-insert into Employee (Ssn, Name, Address, Sex, Salary) VALUES
+insert into Employee (Ssn, Name, Address, Sex, Salary) values
  ('RN01', 'Avinash Scott', 'Bangalore', 'M', 450000),
  ('RN02', 'Dhanush M', 'Bangalore', 'M', 500000),
  ('RN03', 'Dilip m', 'Bangalore', 'M', 700000),

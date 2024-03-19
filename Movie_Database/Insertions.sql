@@ -9,11 +9,11 @@ select * from Actor;
 
 
 insert into Director(Dir_id, Dir_name, Dir_phone) values
-    (201,'Prashanth','911111111'),
-    (202,'Hitchcock','922222222'),
-    (203,'Puneeth','933333333'),
-    (204,'Steven spielberg','944444444'),
-    (205,'Upendra','955555555');
+    (201,'Prashanth',911111111),
+    (202,'Hitchcock',922222222),
+    (203,'Puneeth',933333333),
+    (204,'Steven spielberg',944444444),
+    (205,'Upendra',955555555);
 
 select * from Director;
 

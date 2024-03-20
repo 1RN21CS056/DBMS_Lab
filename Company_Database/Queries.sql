@@ -45,5 +45,5 @@ and E.Salary > 600000
 and D.Dno IN (select E1.Dno
 from Employee E1
 group by E1.Dno
-having COUNT(*)>3)
+having COUNT(*)>5)
 group by D.Dno;
